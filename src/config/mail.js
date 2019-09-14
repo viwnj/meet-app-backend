@@ -3,7 +3,7 @@ export default {
   port: 2525,
   secure: false,
   auth: {
-    user: '1bb5f07dc3aa00',
-    pass: '46283e477627fd',
+    user: process.env.EMAIL_USER,
+    pass: process.env.EMAIL_PASS,
   },
 };
